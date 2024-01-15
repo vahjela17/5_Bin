@@ -11,20 +11,23 @@
 - Hotkey Support: Use keyboard shortcuts to copy to and retrieve from bins
 - System Tray Integration: Easily access the utility from the system tray
 
-*Prerequisites - Python 3.x PyQt5 pyperclip keyboard*
 
 *Installation*
 -
+
+*Prerequisites - Python3.x PyQt5 pyperclip keyboard pyinstall* 
+
 1. Clone the repository.
-2. Install required dependencies: `pip install PyQt5 pyperclip keyboard`.
-3. Run `.exe` file located in the `dist` folder. Utility icon is added to system tray
+2. Install required dependencies: `pip install PyQt5 pyperclip keyboard pyinstall`
+3. Open Terminal in root directory and run `pyinstaller --onefile --noconsole --icon=V_orange.png 5_Bin.py`
+4. Run `.exe` file created, located in the `dist` folder. Utility icon is added to system tray when activated
 
 *Usage*
 -
 
 - Standard `Ctrl` + `C` to copy content to the clipboard 
 - Use `Ctrl` + `Alt` + `[1-5]` to transfer clipboard content to a specific bin.
-- Use `Alt` + `Shift` + `[1-5]` to recall the content of a bin as the active clipboard content.
+- Use `Alt` + `Shift` + `[1-5]` to recall the content of a bin as the active clipboard content
 - Standard `Ctrl` + `V` to paste the active clipboard content.
 
 *System Tray*
@@ -34,5 +37,9 @@
 
 *Contribution*
 -
-Contributions to this project are welcome. Please ensure to follow the code standards and guidelines.
+Contributions to this project are welcome. Please ensure to follow the code standards and guidelines
 
+*License*
+-
+
+This project is licensed under *GNU General Public License (GPL)*
