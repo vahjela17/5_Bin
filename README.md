@@ -17,7 +17,7 @@
 
 *Prerequisites - Python3.x PyQt5 pyperclip keyboard pyinstall* 
 
-1. Clone the repository.
+1. Clone the repository. Alternatively, download the zip file and extract
 2. Install required dependencies: `pip install PyQt5 pyperclip keyboard pyinstall`
 3. Open Terminal in root directory and run `pyinstaller --onefile --noconsole --icon=V_orange.png 5_Bin.py`
 4. Run `.exe` file created, located in the `dist` folder. Utility icon is added to system tray when activated
